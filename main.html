@@ -1,16 +1,81 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>My Playlist</title>
+    <style>
+        body {
+            background-color: #e0e0e0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 60%;
+            margin: auto;
+            background-color: #d3d3d3;
+            padding: 20px;
+        }
+
+        h2, h3, p {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .box {
+            background-color: #f2f2f2;
+            border: 2px solid #555;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<div class="container">
+
+    <h2>My Playlist</h2>
+
+    <!-- Playlist -->
+    <div class="box">
+        <ul>
+            <li>Song 1</li>
+            <li>Song 2</li>
+            <li>Song 3</li>
+            <li>Song 4</li>
+            <li>Song 5</li>
+        </ul>
+    </div>
+
+    <h3>Now Playing...</h3>
+
+    <!-- Video -->
+    <div class="box">
+        <video width="100%" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <p>MP3 songs</p>
+
+    <!-- Audio -->
+    <div class="box">
+        <audio controls>
+            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+</div>
 
 </body>
-
 </html>
+
