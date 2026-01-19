@@ -2,52 +2,16 @@
 <html>
 <head>
     <title>My Playlist</title>
-    <style>
-        body {
-            background-color: #e0e0e0;
-            font-family: Arial, sans-serif;
-        }
-
-        .container {
-            width: 60%;
-            margin: auto;
-            background-color: #d3d3d3;
-            padding: 20px;
-        }
-
-        h2, h3, p {
-            text-align: center;
-            font-weight: bold;
-        }
-
-        .box {
-            background-color: #f2f2f2;
-            border: 2px solid #555;
-            padding: 15px;
-            margin-bottom: 15px;
-            border-radius: 5px;
-        }
-
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-
-        li {
-            margin: 5px 0;
-        }
-    </style>
 </head>
 
-<body>
+<body style="background-color:#e0e0e0;font-family:Arial;">
 
-<div class="container">
+<div style="width:60%;margin:auto;background-color:#d3d3d3;padding:20px;">
 
-    <h2>My Playlist</h2>
+    <h2 style="text-align:center;">My Playlist</h2>
 
-    <!-- Playlist -->
-    <div class="box">
-        <ul>
+    <div style="background-color:#f2f2f2;border:2px solid #555;padding:15px;">
+        <ul style="list-style-type:none;padding:0;">
             <li>Song 1</li>
             <li>Song 2</li>
             <li>Song 3</li>
@@ -56,19 +20,17 @@
         </ul>
     </div>
 
-    <h3>Now Playing...</h3>
+    <h3 style="text-align:center;">Now Playing...</h3>
 
-    <!-- Video -->
-    <div class="box">
+    <div style="background-color:#f2f2f2;border:2px solid #555;padding:10px;">
         <video width="100%" controls>
             <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
         </video>
     </div>
 
-    <p>MP3 songs</p>
+    <p style="text-align:center;">MP3 songs</p>
 
-    <!-- Audio -->
-    <div class="box">
+    <div style="background-color:#f2f2f2;border:2px solid #555;padding:10px;">
         <audio controls>
             <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
         </audio>
@@ -78,4 +40,5 @@
 
 </body>
 </html>
+
 
